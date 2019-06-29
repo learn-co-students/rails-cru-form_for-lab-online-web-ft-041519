@@ -1,0 +1,9 @@
+<h1>Update Artist</h1><br>
+
+<%=form_for @artist do |f|%>
+    <%=label_tag 'Artist Name: '%>
+    <%=f.text_field :name%>
+    <%=label_tag 'Artist Bio: '%>
+    <%=f.text_field :bio%>
+    <%=f.submit%>
+<%end%>
